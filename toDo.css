@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+   
+}
+
+h1 {
+    text-align: center;
+    margin:10px;
+   
+}
+
+input, select, button {
+    margin: 3px;
+    padding: 5px;
+}
+
+ul {
+    padding: 15px 0px;
+    
+}
+
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+}
+
+button.edit , button.delete {
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button.edit:hover , button.delete:hover{
+    color:brown;
+}

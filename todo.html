@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <title>To Do List </title>
+<!-- css -->    
+    <link rel="stylesheet" href="toDo.css">
+    
+</head>
+<body>
+    <h1>To-Do List (Task1) </h1>
+<!-- 1- input taxt --> 
+    <input type="text" id="taskInput" placeholder="Add a new task...">
+
+<!-- 2- select filed status --> 
+   <label for="statusInput">choose a statuse:</label>
+    <select id="statusInput">
+        <option value="todo">To Do</option>
+        <option value="inprogress">In Progress</option>
+        <option value="done">Done</option>
+    </select>
+
+<!-- 3- button to add task --> 
+    <button id="addTaskButton">Add Task</button>
+
+<!-- 7- search by task name -->    
+    <input type="text" id="searchInput" placeholder="Search tasks...">
+    
+<!-- 6- filter -->
+    <label for="filterSelect">Filter by status:</label>
+    <select id="filterSelect">
+        <option value="all">All</option>
+        <option value="todo">To Do</option>
+        <option value="inprogress">In Progress</option>
+        <option value="done">Done</option>
+    </select>
+
+<!--  tasks -->
+    <ul id="taskList"></ul>
+
+
+<!--  js -->
+    <script src="toDo.js"></script>
+</body>
+</html>
