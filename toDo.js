@@ -1,4 +1,4 @@
-//لاختيار 
+//To select the element from html 
 const taskInput = document.querySelector('#taskInput');
 const statusInput = document.querySelector('#statusInput');
 const addTaskButton = document.querySelector('#addTaskButton');
