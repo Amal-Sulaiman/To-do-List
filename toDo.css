@@ -22,15 +22,22 @@ ul {
 
 
 li {
-    display: flex;
-    justify-content: space-between;
-   
+    
+    justify-content: space-between; 
+    display:flex;
     padding: 10px;
     border: 1px solid #ccc;
     margin: 5px 0;
 }
 
+li div{
+    flex:1;
+    text-align:left;
+}
+
+
 button.edit , button.delete {
+    text-align: right;
     margin: 5px;
     padding: 10px;
     font-size: 15px;
@@ -38,6 +45,7 @@ button.edit , button.delete {
     border-radius: 10px;
 }
 
-button.edit:hover , button.delete:hover{
-    color:brown;
+img{
+  width: 20px;
+  height: 20px;
 }

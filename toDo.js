@@ -27,8 +27,8 @@ function renderTasks() {
             const li = document.createElement('li'); //creat li
             li.innerHTML = `
                 <div> ${index+1}: ${task.name } <br>  Status: ${task.status} </div>
-                <button class="edit" onclick="editTask(${index})">Edit</button>
-                <button class="delete" onclick="deleteTask(${index})">Delete</button>
+                <button class="edit" onclick="editTask(${index})"><img src="edit.png" alt="image for edit"></button>
+                <button class="delete" onclick="deleteTask(${index})"><img src="bin.png" alt="image for delet"></button>
             `;
             taskList.appendChild(li);
        }
